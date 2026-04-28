@@ -56,7 +56,7 @@ export default async function handler(req, res) {
               Departamento: shipping.province || "",
               Localidad: shipping.city || "",
               Calle: shipping.address1 || "",
-              PuertaNro: shipping.address2 || "",
+              PuertaNro: shipping.address2 || "S/N",
               CodigoPostal: shipping.zip || "",
             },
           },
